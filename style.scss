@@ -1314,6 +1314,13 @@ main{
                     }
         
                 }
+                .section__right-jpg{
+                    img{
+                        width: 405px;
+                        height: 405px;
+                        border: 50%;
+                    }
+                }
             }
             .page-4-items2{
                 display: flex;
@@ -1390,6 +1397,13 @@ main{
                     }
         
                 }
+                .section__right-jpg{
+                    img{
+                        width: 405px;
+                        height: 405px;
+                        border: 50%;
+                    }
+                }
             }
             .page-4-items3{
                 display: flex;
@@ -1412,7 +1426,7 @@ main{
                     right: -500px;
                     display: none;
                 }
-    
+                
                 .section__left-text{
                     width: 445px;
                     display: flex;
@@ -1467,14 +1481,16 @@ main{
     
         
                 }
-    
+
                 .section__right-jpg{
-    
                     img{
-                        width: 445px;
-                        height: 445px;
-                        border-radius: 50%;
+                        width: 390px;
+                        height: 390px;
+                        border: 50%;
                     }
+                }
+               
+    
     
                 }
             }
