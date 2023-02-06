@@ -823,6 +823,8 @@ main footer .footer__left ul li a:hover {
     box-sizing: border-box;
   }
   main {
+    width: 100%;
+    height: 100vh;
     border: 1px solid black;
   }
   main header {
@@ -853,9 +855,10 @@ main footer .footer__left ul li a:hover {
     align-items: center;
     justify-content: center;
     background-image: url(./img/nav\ bg.jpg);
-    padding-top: 115px;
+    padding-top: 95px;
     background-size: cover;
     position: relative;
+    padding-left: 20%;
   }
   main nav img.one {
     position: absolute;
@@ -868,6 +871,8 @@ main footer .footer__left ul li a:hover {
     left: -300px;
   }
   main nav h1 {
+    margin-left: auto;
+    max-width: 100%;
     width: 311px;
     font-family: "Space Mono";
     font-style: normal;
@@ -882,9 +887,11 @@ main footer .footer__left ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 25px;
+    justify-content: center;
   }
   main nav .nav__text p {
+    max-width: 100%;
+    width: 300px;
     font-family: "Lexend Deca";
     font-style: normal;
     font-weight: 400;
@@ -965,6 +972,7 @@ main footer .footer__left ul li a:hover {
   }
   main section.page-4 {
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     margin-top: 700px;
@@ -975,9 +983,8 @@ main footer .footer__left ul li a:hover {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     position: relative;
-    padding: 10px 5px;
   }
   main section.page-4 .page-4-items img.top {
     width: 100%;
@@ -999,6 +1006,8 @@ main footer .footer__left ul li a:hover {
     gap: 24px;
   }
   main section.page-4 .page-4-items .section__left-text h2 {
+    max-width: 100%;
+    width: 300;
     font-family: "Space Mono";
     font-style: normal;
     font-weight: 700;
@@ -1009,6 +1018,7 @@ main footer .footer__left ul li a:hover {
     color: #495567;
   }
   main section.page-4 .page-4-items .section__left-text p {
+    max-width: 100%;
     width: 311px;
     font-family: "Lexend Deca";
     font-style: normal;
@@ -1046,9 +1056,8 @@ main footer .footer__left ul li a:hover {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     position: relative;
-    padding: 10px 5px;
   }
   main section.page-4 .page-4-items2 img.top {
     width: 100%;
@@ -1070,6 +1079,8 @@ main footer .footer__left ul li a:hover {
     gap: 24px;
   }
   main section.page-4 .page-4-items2 .section__left-text h2 {
+    max-width: 100%;
+    width: 300px;
     font-family: "Space Mono";
     font-style: normal;
     font-weight: 700;
@@ -1080,6 +1091,7 @@ main footer .footer__left ul li a:hover {
     color: #495567;
   }
   main section.page-4 .page-4-items2 .section__left-text p {
+    max-width: 100%;
     width: 311px;
     font-family: "Lexend Deca";
     font-style: normal;
@@ -1113,13 +1125,13 @@ main footer .footer__left ul li a:hover {
     border: 50%;
   }
   main section.page-4 .page-4-items3 {
+    width: 100%;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
     position: relative;
-    padding: 10px 5px;
   }
   main section.page-4 .page-4-items3 img.top {
     width: 70%;
@@ -1142,6 +1154,7 @@ main footer .footer__left ul li a:hover {
     gap: 24px;
   }
   main section.page-4 .page-4-items3 .section__left-text h2 {
+    max-width: 100%;
     width: 300px;
     font-family: "Space Mono";
     font-style: normal;
@@ -1153,6 +1166,7 @@ main footer .footer__left ul li a:hover {
     color: #495567;
   }
   main section.page-4 .page-4-items3 .section__left-text p {
+    max-width: 100%;
     width: 311px;
     font-family: "Lexend Deca";
     font-style: normal;
@@ -1185,24 +1199,17 @@ main footer .footer__left ul li a:hover {
     height: 405px;
     border: 50%;
   }
-  section.page-5 {
+  main section.page-5 {
     width: 100%;
-    height: 300px;
+    height: 320px;
     display: flex;
     flex-direction: column;
-    background: #495567;
-    position: relative;
-    margin-top: 0;
-    padding: 0;
-    gap: 0px;
+    gap: 30px;
   }
-  section.page-5 img.position {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-  section.page-5 h1 {
-    width: 311px;
+  main section.page-5 h1 {
+    max-width: 100%;
+    width: 300px;
+    margin-top: 0px;
     font-family: "Space Mono";
     font-style: normal;
     font-weight: 700;
@@ -1210,48 +1217,40 @@ main footer .footer__left ul li a:hover {
     line-height: 32px;
     text-align: center;
     letter-spacing: -1.42857px;
-    color: #ffffff;
+    color: #FFFFFF;
   }
-  section.page-5 .images {
-    display: flex;
-    gap: 18px;
+  main section.page-5 .images {
+    max-width: 100%;
+    width: 300px;
   }
-  footer {
+  main section.page-5 .images img {
+    margin-top: 0;
     width: 100%;
-    height: 440px;
-    background: #333A44;
-    display: flex;
-    flex-direction: column;
-    padding: 64px 0;
-    align-items: center;
-    justify-content: space-between;
   }
-  footer .footer__left {
+  main footer {
+    width: 100%;
+    height: 438px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 58px;
+    gap: 15px;
+    background: #333A44;
+    padding: 0;
   }
-  footer .footer__left ul {
+  main footer .footer__left {
+    max-width: 100%;
+    width: 300px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 10px;
   }
-  footer .footer__left ul li {
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 25px;
+  main footer .footer__left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  main footer .footer__left ul li {
     text-align: center;
-  }
-  footer .footer__left ul li a {
-    color: #939CAA;
-  }
-  footer .footer__left ul li a:hover {
-    color: #fff;
-    transition: 0.3s;
-    cursor: pointer;
   }
 }/*# sourceMappingURL=style.css.map */

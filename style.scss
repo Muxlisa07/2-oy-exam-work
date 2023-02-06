@@ -1049,6 +1049,8 @@ main{
     }
 
     main{
+        width: 100%;
+        height: 100vh;
         border: 1px solid black;
 
         header{
@@ -1084,9 +1086,10 @@ main{
             align-items: center;
             justify-content: center;
             background-image: url(./img/nav\ bg.jpg);
-            padding-top: 115px;
+            padding-top: 95px;
             background-size: cover;
             position: relative;
+            padding-left: 20%;
     
             img.one{
                 position: absolute;
@@ -1100,6 +1103,8 @@ main{
             }
     
             h1{
+                margin-left: auto;
+                max-width: 100%;
                 width: 311px;
                 font-family: 'Space Mono';
                 font-style: normal;
@@ -1116,9 +1121,11 @@ main{
               display: flex;
               flex-direction: column;
               align-items: center;
-              padding: 0 25px;
+              justify-content: center;
     
                 p{
+                    max-width: 100%;
+                    width: 300px;
                     font-family: 'Lexend Deca';
                     font-style: normal;
                     font-weight: 400;
@@ -1233,6 +1240,7 @@ main{
 
         section.page-4{
             width: 100%;
+            height: auto;
             display: flex;
             flex-direction: column;
             margin-top: 700px;
@@ -1244,9 +1252,8 @@ main{
                 flex-direction: column-reverse;
                 align-items: center;
                 justify-content: center;
-                gap: 100px;
+                gap: 50px;
                 position: relative;
-                padding: 10px 5px;
     
                 img.top{
                     width: 100%;
@@ -1271,6 +1278,8 @@ main{
                     gap: 24px;
         
                     h2{
+                        max-width: 100%;
+                        width: 300;
                         font-family: 'Space Mono';
                         font-style: normal;
                         font-weight: 700;
@@ -1282,6 +1291,7 @@ main{
                     }
         
                     p{
+                        max-width: 100%;
                         width: 311px;
                         font-family: 'Lexend Deca';
                         font-style: normal;
@@ -1329,9 +1339,8 @@ main{
                 flex-direction: column-reverse;
                 align-items: center;
                 justify-content: center;
-                gap: 100px;
+                gap: 50px;
                 position: relative;
-                padding: 10px 5px;
     
                 img.top{
                     width: 100%;
@@ -1356,6 +1365,8 @@ main{
                     gap: 24px;
         
                     h2{
+                        max-width: 100%;
+                        width: 300px;
                         font-family: 'Space Mono';
                         font-style: normal;
                         font-weight: 700;
@@ -1367,6 +1378,7 @@ main{
                     }
         
                     p{
+                        max-width: 100%;
                         width: 311px;
                         font-family: 'Lexend Deca';
                         font-style: normal;
@@ -1409,13 +1421,13 @@ main{
                 }
             }
             .page-4-items3{
+                width: 100%;
                 display: flex;
                 flex-direction: column-reverse;
                 align-items: center;
                 justify-content: center;
-                gap: 100px;
+                gap: 50px;
                 position: relative;
-                padding: 10px 5px;
     
                 img.top{
                     width: 70%;
@@ -1440,6 +1452,7 @@ main{
                     gap: 24px;
         
                     h2{
+                        max-width: 100%;
                         width: 300px;
                         font-family: 'Space Mono';
                         font-style: normal;
@@ -1452,6 +1465,7 @@ main{
                     }
         
                     p{
+                        max-width: 100%;
                         width: 311px;
                         font-family: 'Lexend Deca';
                         font-style: normal;
@@ -1499,98 +1513,84 @@ main{
     
                 }
             }
-        }
+        
 
         section.page-5{
             width: 100%;
-            height: 300px;
+            height: 320px;
             display: flex;
             flex-direction: column;
-            background: #495567;
-            position: relative;
-            margin-top: 0;
-            padding: 0;
-            gap: 0px;
-    
-            img.position{
-                position: absolute;
-                right: 0;
-                bottom: 0;
-            }
-    
-            h1{
-                width: 311px;
-                font-family: 'Space Mono';
+            gap: 30px;
+
+            h1{  
+                max-width: 100%;
+                width: 300px;
+                margin-top: 0px;
+                 font-family: 'Space Mono';
                 font-style: normal;
                 font-weight: 700;
                 font-size: 32px;
                 line-height: 32px;
                 text-align: center;
                 letter-spacing: -1.42857px;
-                color: #ffffff;
+                color: #FFFFFF;
             }
-    
-            .images{
-                display: flex;
-                gap: 18px;
-            }
-        }
 
-        footer{
-            width: 100%;
-            height: 440px;
-            background: #333A44;
-            display: flex;
-            flex-direction: column;
-            padding: 64px 0;
-            align-items: center;
-            justify-content: space-between;
-    
-            .footer__left{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                gap: 58px;
-    
-                ul{
-                    display: flex;
-                    flex-direction: column;
-                    gap: 32px;
-    
-                    li{
-                        font-family: 'Space Mono';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 15px;
-                        line-height: 25px;
-                        text-align: center;
-                        
-    
-                        a{
-                            color: #939CAA;
-    
-                        }
-                        a:hover{
-                            color: #fff;
-                            transition: 0.3s;
-                            cursor: pointer;
-    
-                        }
-    
-                    }
-    
-    
+            .images{
+                max-width: 100%;
+                width: 300px;
+                img{
+                    margin-top: 0;
+                   width: 100%;
                 }
             }
         }
 
+        footer{
+           width: 100%;
+           height: 438px;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           gap: 15px;
+           background: #333A44;
+           padding: 0;
+
+           .footer__left{
+            max-width: 100%;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                li{
+                    text-align: center;
+                }
+            }
+           }
+
+
+          
+        }
 
 
 
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
     }
-
-
-
-
-
+}
